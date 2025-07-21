@@ -1,0 +1,69 @@
+body{
+    background-color: azure;
+    text-align: center;
+}
+
+h1{
+    display: none;
+}
+
+@media only screen and (max-width:500px) {
+    body{
+        background-color: brown;
+    }
+
+    #smartphone h1{
+        display: block;
+        color: aliceblue;
+    }
+
+    h2{
+        display: none;
+    }
+    
+}
+
+@media (min-width:501px) and (max-width:768px) {
+    body{
+        background-color: green;
+    }
+
+    #tablets h1{
+        display: block;
+        color: aliceblue;
+    }
+
+    h2 {
+        display: none;
+    }
+}
+
+@media (min-width:769px) and (max-width:1200px) {
+        body{
+        background-color: blue;
+    }
+
+    #laptop h1{
+        display: block;
+        color: aliceblue;
+    }
+
+    h2 {
+        display: none;
+    }
+}
+
+@media (min-width:1201px) {
+        body{
+        background-color: black;
+    }
+
+    #tv h1{
+        display: block;
+        color: aliceblue;
+    }
+
+    h2 {
+        display: none;
+    }
+}

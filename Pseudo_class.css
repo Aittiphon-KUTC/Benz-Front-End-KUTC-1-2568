@@ -1,0 +1,19 @@
+.heading:hover{
+    color:red;
+    font-size: 60px;
+}
+
+.heading:active{
+   background-color:black;
+}
+
+#input:focus{
+    background-color:black;
+    color: white;
+}
+
+
+.list li:nth-child(odd){
+    background-color: red;
+    color: white;
+}
