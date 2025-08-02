@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/script.js"></script>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>Benz</h1>
+    <div>
+        <p id="Test-1"> ทดลองกดปุ่มเพื่อเปลี่ยนสีข้อความ </p>
+        <input 
+            type="button" 
+            value="กดปุ่ม" 
+            onclick=changecolor() >
+    </div>
+
+    <div class="Test-2">
+        ทดสอบการทำงานการเปลี่ยนชื่อของ Class
+    </div>
+        <input 
+            type="button" 
+            value="กดปุ่มเพื่อเลี่ยนชื่อของ Class"
+            onclick=test()>
+    
+    <br> <br> <br>
+
+    <div >
+        <p class="mode">
+            แสดงผลโหมดในรูปแบบต่าง ๆ 
+            และนี้คือตัวอย่างการแสดงผลนะจ๊ะ
+        </p>
+    </div>
+
+    <input 
+        type="button" 
+        value="กดปุ่มเพื่อเปลี่ยนเป็นโหมดมืด"
+        onclick=drakmode()>
+
+    <input 
+        type="button" 
+        value="กดปุ่มเพื่อเปลี่ยนเป็นโหมดสว่าง"
+        onclick=lightmode()>
+
+
+    <br> <br>
+    <h1 id="showtext">[แสดงผลข้อความ]</h1>
+
+    <label for="">กรอกข้อมูลเพื่อเปลี่ยนข้อความ</label>
+    <input 
+        type="text" 
+        id="change-text">
+
+    <input 
+        type="button" 
+        value="กดปุ่มเพื่อเปลี่ยนข้อความ"
+        onclick=changetext()>
+
+
+<script src="/script.js"></script>
 </body>
 </html>
